@@ -26,7 +26,7 @@ export const WrapperTitle = styled.View`
 `;
 
 export const Title = styled(Reanimated.Text)`
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.6px;
   text-align: center;
