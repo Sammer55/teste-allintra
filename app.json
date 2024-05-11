@@ -4,5 +4,13 @@
     "slug": "teste-allintra",
     "version": "1.0.0"
   },
+  "userInterfaceStyle": "automatic",
+  "experiments": {
+    "tsconfigPaths": true
+  },
+  "splash": {
+    "backgroundColor": "#BF1F27",
+    "resizeMode": "cover"
+  },
   "name": "teste-allintra"
 }
