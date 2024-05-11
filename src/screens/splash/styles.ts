@@ -1,6 +1,6 @@
-import styled from "styled-components/native";
-import Reanimated, { SlideInRight, ZoomOut } from "react-native-reanimated";
 import { Dimensions } from "react-native";
+import Reanimated from "react-native-reanimated";
+import styled from "styled-components/native";
 
 const SCREEN_HEIGHT = Dimensions.get("screen").height;
 
@@ -8,6 +8,7 @@ export const Wrapper = styled.SafeAreaView`
   flex: 1;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 `;
 
 export const Logo = styled(Reanimated.Image)`

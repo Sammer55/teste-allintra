@@ -1,12 +1,33 @@
-import { SlideInRight, ZoomOut } from "react-native-reanimated";
+import { useEffect } from "react";
 import { Backdrop, Logo, Wrapper } from "./styles";
+import { CommonActions, useNavigation } from "@react-navigation/native";
+import { SlideInRight, ZoomOut } from "react-native-reanimated";
 import logo from "src/assets/images/logo.png";
 
+const ANIMATION_DURATION = 3000;
+
 const SplashScreen = () => {
+  const navigation = useNavigation();
+
+  const onAnimationFinished = () => {
+    navigation.dispatch(
+      CommonActions.reset({
+        index: 0,
+        routes: [{ name: "TabsScreens" }],
+      })
+    );
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      onAnimationFinished();
+    }, ANIMATION_DURATION);
+  }, []);
+
   return (
     <Wrapper>
       <Logo entering={SlideInRight.duration(1000)} source={logo} />
-      <Backdrop entering={ZoomOut.springify(3000)} />
+      <Backdrop entering={ZoomOut.springify(ANIMATION_DURATION)} />
     </Wrapper>
   );
 };
