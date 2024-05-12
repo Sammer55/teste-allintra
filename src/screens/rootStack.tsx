@@ -11,18 +11,16 @@ const StackScreens = () => {
   const backgroundColor = theme.background;
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor }}>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-          cardStyle: { backgroundColor },
-        }}
-        initialRouteName="TabsScreens"
-      >
-        <Stack.Screen name="Splash" component={SplashScreen} />
-        <Stack.Screen name="TabsScreens" component={TabsScreens} />
-      </Stack.Navigator>
-    </SafeAreaView>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+        cardStyle: { backgroundColor },
+      }}
+      initialRouteName="Splash"
+    >
+      <Stack.Screen name="Splash" component={SplashScreen} />
+      <Stack.Screen name="TabsScreens" component={TabsScreens} />
+    </Stack.Navigator>
   );
 };
 

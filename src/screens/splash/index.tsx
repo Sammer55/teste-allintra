@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Backdrop, Logo, Wrapper } from "./styles";
-import { CommonActions, useNavigation } from "@react-navigation/native";
 import { SlideInRight, ZoomOut } from "react-native-reanimated";
+import { CommonActions, useNavigation } from "@react-navigation/native";
 import logo from "src/assets/images/logo.png";
 
 const ANIMATION_DURATION = 3000;

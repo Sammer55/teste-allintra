@@ -15,6 +15,7 @@ export const Label = styled(Reanimated.Text)<{ isActive: boolean }>`
   font-size: 12px;
   font-weight: 500;
   z-index: 1;
+  letter-spacing: 0.4px;
 `;
 
 export const Bar = styled(Reanimated.View)`
