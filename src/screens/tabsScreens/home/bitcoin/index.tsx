@@ -110,7 +110,7 @@ const Bitcoin = () => {
 
   useEffect(() => {
     try {
-      binanceClient.ws.s("BTCBRL", "1m", handleCandleEventUpdate);
+      binanceClient.ws.candles("BTCBRL", "1m", handleCandleEventUpdate);
     } catch (error) {
       show("Ocorreu um erro ao buscar os dados do gráfico de vela.", {
         type: "danger",

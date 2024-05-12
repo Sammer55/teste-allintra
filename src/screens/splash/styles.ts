@@ -1,10 +1,11 @@
 import { Dimensions } from "react-native";
 import Reanimated from "react-native-reanimated";
+import { SafeAreaView } from "react-native-safe-area-context";
 import styled from "styled-components/native";
 
 const SCREEN_HEIGHT = Dimensions.get("screen").height;
 
-export const Wrapper = styled.SafeAreaView`
+export const Wrapper = styled(SafeAreaView)`
   flex: 1;
   align-items: center;
   justify-content: center;

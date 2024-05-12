@@ -1,7 +1,8 @@
 import styled from "styled-components/native";
 import Reanimated from "react-native-reanimated";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export const Wrapper = styled.SafeAreaView`
+export const Wrapper = styled(SafeAreaView)`
   flex: 1;
   display: flex;
   align-items: center;

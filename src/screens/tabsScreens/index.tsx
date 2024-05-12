@@ -1,10 +1,10 @@
-import { SafeAreaView } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import InDevelopmentScreen from "./inDevelopment";
 import PricesScreen from "./prices";
 import HomeScreen from "./home";
 import TabBar from "../../components/tabBar";
 import Header from "../../components/header";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Tab = createBottomTabNavigator();
 
