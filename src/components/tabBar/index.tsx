@@ -25,17 +25,17 @@ const TabBar = (props: BottomTabBarProps) => {
           currentScreen={currentScreen}
         />
         <TabItem
+          label="Preços"
+          icon={<Ionicons name="pricetags-outline" />}
+          onPress={handleNavigation}
+          screenToNavigate="Prices"
+          currentScreen={currentScreen}
+        />
+        <TabItem
           label="Carteira"
           icon={<Ionicons name="wallet-outline" />}
           onPress={handleNavigation}
           screenToNavigate="Wallet"
-          currentScreen={currentScreen}
-        />
-        <TabItem
-          label="Transações"
-          icon={<Ionicons name="cash-outline" />}
-          onPress={handleNavigation}
-          screenToNavigate="Transactions"
           currentScreen={currentScreen}
         />
         <TabItem

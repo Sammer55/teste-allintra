@@ -6,10 +6,9 @@ export const Wrapper = styled.View`
   align-items: center;
   gap: 8px;
   background-color: ${({ theme }) => theme.title};
-  border: 1px solid ${({ theme }) => theme.title};
-  border-bottom-width: 2px;
-  padding: 4px 6px;
-  border-radius: 8px;
+  padding: 4px;
+  border-radius: 100px;
+  margin: 0 16px 16px 16px;
 `;
 
 export const Logo = styled.Image`
