@@ -1,12 +1,12 @@
 import React from "react";
 import { Content, Wrapper } from "./styles";
-import BitcoinToBrl from "./bitcoinToBrl";
+import Bitcoin from "./bitcoin";
 
 const HomeScreen = () => {
   return (
     <Wrapper>
       <Content>
-        <BitcoinToBrl />
+        <Bitcoin />
       </Content>
     </Wrapper>
   );

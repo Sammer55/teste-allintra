@@ -1,5 +1,5 @@
 import { Logo, Name, Wrapper } from "./styles";
-import logo from "src/assets/images/logo.png";
+import logo from "src/assets/images/logoCircle.png";
 
 const Header = () => {
   return (

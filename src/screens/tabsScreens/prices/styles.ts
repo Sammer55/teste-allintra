@@ -21,4 +21,5 @@ export const Title = styled.Text`
   font-size: 16px;
   font-weight: 600;
   color: ${({ theme }) => theme.title};
+  margin-top: 16px;
 `;

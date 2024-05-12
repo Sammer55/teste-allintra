@@ -3,5 +3,5 @@ export default {
   title: "#1f1f1f",
   subtitle: "#f5f5f6",
   border: "#bdbdbd",
-  background: "#f0f0f1",
+  background: "#f3f3f5",
 };

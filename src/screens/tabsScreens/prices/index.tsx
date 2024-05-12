@@ -33,6 +33,8 @@ const PricesScreen = () => {
     <Wrapper>
       <Content>
         <Card>
+          <Title>Preços ({memoizedPrices.length} encontrados)</Title>
+
           <FlatList
             refreshControl={
               <RefreshControl
@@ -41,9 +43,6 @@ const PricesScreen = () => {
               />
             }
             showsVerticalScrollIndicator={false}
-            ListHeaderComponent={
-              <Title>Preços ({memoizedPrices.length} encontrados)</Title>
-            }
             contentContainerStyle={{
               gap: 12,
               paddingVertical: 16,

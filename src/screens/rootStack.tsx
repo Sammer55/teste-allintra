@@ -1,4 +1,3 @@
-import { SafeAreaView } from "react-native";
 import SplashScreen from "./splash";
 import { createStackNavigator } from "@react-navigation/stack";
 import { useTheme } from "styled-components";

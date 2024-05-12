@@ -41,11 +41,16 @@ export const Card = styled(Reanimated.View)`
   height: 200px;
   border-radius: 8px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
-export const WrapperValues = styled.View``;
+export const WrapperValues = styled.View`
+  min-height: 32px;
+`;
 
-export const Value = styled.Text`
+export const Value = styled(Reanimated.Text)`
   font-size: 20px;
   font-weight: 600;
   color: ${({ theme }) => theme.title};
