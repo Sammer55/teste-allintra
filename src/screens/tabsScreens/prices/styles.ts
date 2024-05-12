@@ -23,3 +23,8 @@ export const Title = styled.Text`
   color: ${({ theme }) => theme.title};
   margin-top: 16px;
 `;
+
+export const EmptyText = styled.Text`
+  color: ${({ theme }) => theme.subtitle};
+  font-size: 14px;
+`;

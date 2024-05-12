@@ -3,21 +3,21 @@ import Reanimated from "react-native-reanimated";
 
 export const Wrapper = styled.View`
   gap: 8px;
-  background-color: white;
-  padding: 16px;
   border-radius: 8px;
   overflow: hidden;
+  padding: 8px 0;
 `;
 
 export const Content = styled.View`
-  gap: 16px;
-`;
-
-export const WrapperCoin = styled.View`
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 8px;
+`;
+
+export const WrapperCoin = styled.View`
+  display: flex;
+  justify-content: center;
 `;
 
 export const CoinIcon = styled.View`
@@ -32,12 +32,13 @@ export const CoinIcon = styled.View`
 `;
 
 export const CoinName = styled.Text`
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
+  color: ${({ theme }) => theme.title};
+  letter-spacing: 0.4px;
 `;
 
 export const Card = styled(Reanimated.View)`
-  border: 1px solid ${({ theme }) => theme.border};
   height: 200px;
   border-radius: 8px;
   background-color: white;
@@ -46,14 +47,11 @@ export const Card = styled(Reanimated.View)`
   justify-content: center;
 `;
 
-export const WrapperValues = styled.View`
-  min-height: 32px;
-`;
-
 export const Value = styled(Reanimated.Text)`
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: ${({ theme }) => theme.title};
+  letter-spacing: 0.4px;
 `;
 
 export const WrapperCoinValue = styled.View`
@@ -67,4 +65,17 @@ export const CoinValue = styled.Text`
   font-size: 16px;
   font-weight: 600;
   color: green;
+  color: ${({ theme }) => theme.title};
+`;
+
+export const WrapperChartLoading = styled.View`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const ChartLoadingText = styled.Text`
+  font-size: 14px;
+  color: ${({ theme }) => theme.subtitle};
+  letter-spacing: 0.6px;
 `;
