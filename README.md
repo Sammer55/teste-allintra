@@ -1,4 +1,17 @@
-## Observações gerais:
+![image](https://github.com/Sammer55/teste-allintra/assets/80492895/54dbd1a4-4013-4ac1-a0fc-7236b9bb2c49)## Observações gerais:
+
+O projeto foi desenvolvido com Expo Bare Workflow pela facilidade na execução do server do Expo e ainda sim abrindo a possibilidade de executa-lo nativamente pelo xcode ou Android Studio.
+
+Para executar o projeto de forma fácil:
+- npx expo install (para instalar as dependências)
+- npx expo start (para startar o server do expo)
+
+ou
+
+- yarn (para instalar as dependências)
+- npx react-native start (para startar o server do react-native, rodando o projeto nativamente)
+
+ou execute 
 
 Para trazer os dados dinamicamente via WebSocket e Rest:
 
@@ -104,3 +117,14 @@ Critérios de Avaliação:
 - Manipulação de casos especiais, cenários de erro e validação de entrada.
 - Técnicas de otimização de desempenho e escalabilidade da solução.
 - Compreensão do ecossistema React Native, incluindo bibliotecas, ferramentas e APIs.
+
+Testado em:
+Android, Galaxy M12
+iPhone XS Max
+iPhone 12
+iPad 9 (10 polegadas)
+Simuladores: (iPhone 15 Pro Max, iPad Pro (12.9-inch) 6th generation)
+
+<img src="https://github.com/Sammer55/teste-allintra/assets/80492895/d51b320d-053d-4b50-a904-40fe0b7b1716" width="500"/>
+
+
