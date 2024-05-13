@@ -118,9 +118,13 @@ Critérios de Avaliação:
 
 Testado em:
 Android, Galaxy M12
+
 iPhone XS Max
+
 iPhone 12
+
 iPad 9 (10 polegadas)
+
 Simuladores: (iPhone 15 Pro Max, iPad Pro (12.9-inch) 6th generation)
 
 <img src="https://github.com/Sammer55/teste-allintra/assets/80492895/d51b320d-053d-4b50-a904-40fe0b7b1716" width="500"/>
