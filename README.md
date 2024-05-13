@@ -11,8 +11,6 @@ ou
 - yarn (para instalar as dependências)
 - npx react-native start (para startar o server do react-native, rodando o projeto nativamente)
 
-ou execute 
-
 Para trazer os dados dinamicamente via WebSocket e Rest:
 
 Foi utilizado a biblioteca [react-native-binance-api](https://github.com/gkoychev/binance-api-react-native) que é uma adaptação para React Native da binance-api-node, sendo necessário somente importar o módulo e criar o client com a apiKey e apiSecret. Deixei no .env a minha ;)
