@@ -1,4 +1,4 @@
-![image](https://github.com/Sammer55/teste-allintra/assets/80492895/54dbd1a4-4013-4ac1-a0fc-7236b9bb2c49)## Observações gerais:
+## Observações gerais:
 
 O projeto foi desenvolvido com Expo Bare Workflow pela facilidade na execução do server do Expo e ainda sim abrindo a possibilidade de executa-lo nativamente pelo xcode ou Android Studio.
 
