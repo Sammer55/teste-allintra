@@ -9,7 +9,7 @@
     "tsconfigPaths": true
   },
   "splash": {
-    "backgroundColor": "#BF1F27",
+    "backgroundColor": "#C8E659",
     "resizeMode": "cover"
   },
   "name": "teste-allintra"

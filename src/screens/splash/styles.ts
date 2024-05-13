@@ -9,7 +9,7 @@ export const Wrapper = styled(SafeAreaView)`
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: ${({ theme }) => theme.background};
 `;
 
 export const Logo = styled(Reanimated.Image)`
